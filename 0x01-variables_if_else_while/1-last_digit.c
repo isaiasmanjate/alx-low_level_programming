@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include <string.h>
 /**
  * main - A program that print the last digite of a random number
  * Return: 0 (Success)
