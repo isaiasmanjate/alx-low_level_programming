@@ -1,18 +1,19 @@
-#include <stdio.h>
-/*
-   main - A program that print _putchar
-Return: 0
+#include "main.h"
+/**
+  main - Print the _putchar
+Return: 0 sucess
 */
 int main(void)
 {
-	const char msg [] ="_putchar\n";
-	int length = sizeof(msg) - 1;
 
-	for (int i = 0; i < length; i++)
-	{
-		write (1, &msg[i], 1);
-	}
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
-
-
